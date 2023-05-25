@@ -1,0 +1,61 @@
+.container {
+  padding: 20px;
+  font-size: 40px;
+  margin-top: 20px;
+  margin-bottom: 30px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 550px;
+  border: 5px solid blueviolet;
+  border-radius: 20px;
+  background-color: antiquewhite;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.title {
+  display: block;
+  font-size: 50px;
+  font-weight: 600;
+}
+
+.wrapperBtn {
+  display: flex;
+  margin: 20px;
+  gap: 10px;
+}
+
+.btn {
+  display: block;
+  width: 150px;
+  padding: 5px;
+  font-size: 25px;
+  color: antiquewhite;
+  background-color: black;
+  border: 3px solid blueviolet;
+  border-radius: 5px;
+
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  transition: background-color 250ms ease-in, color 300ms ease-in;
+}
+
+.btn:hover,
+.btn:focus {
+  background-color: antiquewhite;
+  color: black;
+}
+
+.message {
+  font-style: italic;
+  font-size: 25px;
+  color: red;
+}
+
+.stats {
+  font-size: 25px;
+  color: black;
+  font-weight: bold;
+}
+
+.span {
+  color: rgba(255, 0, 0, 0.815);
+}
